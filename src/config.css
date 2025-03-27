@@ -49,10 +49,78 @@ nav a{
     
 }
 
+.button-1{
+    background-color: #415a77;
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
 
-nav a:hover{
+}   
+.button-1:hover{
     background-color: #D9DEE9;
-    color:rgb(0, 0, 0);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-2{
+    background-color: #415a77;
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+
+}   
+.button-2:hover{
+    background-color: #D9DEE9;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-3{
+    background-color: #415a77;
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+
+}   
+.button-3:hover{
+    background-color: #D9DEE9;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-4{
+    background-color: #415a77;
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+
+}   
+.button-4:hover{
+    background-color: #D9DEE9;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button-5{
+    background-color: #415a77;
+    color:rgb(255, 255, 255);
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+
+}   
+.button-5:hover{
+    background-color: #D9DEE9;
+    color: black;
     font-family: 'Montserrat', sans-serif;
 }
 
