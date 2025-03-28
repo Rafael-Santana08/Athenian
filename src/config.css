@@ -13,12 +13,11 @@ body {
     background-color: #415a77;
 }
 header {
-    
+    display: flex;
     h1 {
-        font-size: 0, 5em;
+        font-size: 2em;
         color: ffffff;
-        text-align: center;
-        padding: 10px;
+        padding: 1px;
         font-family: 'Varela Round', sans-serif;
     }
     
@@ -123,4 +122,11 @@ nav a{
     color: black;
     font-family: 'Montserrat', sans-serif;
 }
-
+.hr{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #D9DEE9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.250);
+}
