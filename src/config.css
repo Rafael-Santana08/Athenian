@@ -1,132 +1,138 @@
-.varela-round-regular {
-    font-family: 'Varela Round', sans-serif;
-    font-weight: 36;
-    font-style: normal;
-}
-.montserrat-regular {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 36;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     background-color: #415a77;
 }
-header {
+.header {
     display: flex;
+    justify-content: center;
     h1 {
         font-size: 2em;
-        color: ffffff;
-        padding: 1px;
+        color: #ffffff;
+        padding: 15px;
         font-family: 'Varela Round', sans-serif;
     }
-    
+
     #logo {
         display: flex;
         justify-content: center;
+        padding: 15px;
     }
-    
 }
-nav{
-    width:90%;
+nav {
+    width: 700px;
     background-color: #415a77;
     border-radius: 30px;
-    padding:10px;
-    display:flex;
+    
+    padding: 10px;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.250);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: 'Montserrat', sans-serif;
 }
 
-nav a{
-    color:rgb(255, 255, 255);
+nav a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    
+    border-bottom: solid 1px #ffffff ;
 }
 
-.button-1{
+.button-1 {
     background-color: #415a77;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 10px 20px;
     border: none;
     font-family: 'Montserrat', sans-serif;
-
-}   
-.button-1:hover{
-    background-color: #D9DEE9;
+}
+.button-1:hover {
+    background-color: #d9dee9;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    transition: 400ms;
 }
 
-.button-2{
+.button-2 {
     background-color: #415a77;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 10px 20px;
     border: none;
     font-family: 'Montserrat', sans-serif;
-
-}   
-.button-2:hover{
-    background-color: #D9DEE9;
+}
+.button-2:hover {
+    background-color: #d9dee9;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    transition: 400ms;
 }
 
-.button-3{
+.button-3 {
     background-color: #415a77;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 10px 20px;
     border: none;
     font-family: 'Montserrat', sans-serif;
-
-}   
-.button-3:hover{
-    background-color: #D9DEE9;
+}
+.button-3:hover {
+    background-color: #d9dee9;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    transition: 400ms;
 }
 
-.button-4{
+.button-4 {
     background-color: #415a77;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 10px 20px;
     border: none;
     font-family: 'Montserrat', sans-serif;
-
-}   
-.button-4:hover{
-    background-color: #D9DEE9;
+}
+.button-4:hover {
+    background-color: #d9dee9;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    transition: 400ms;
 }
 
-.button-5{
+.button-5 {
     background-color: #415a77;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     border-radius: 30px;
     padding: 10px 20px;
     border: none;
     font-family: 'Montserrat', sans-serif;
-
-}   
-.button-5:hover{
-    background-color: #D9DEE9;
+}
+.button-5:hover {
+    background-color: #d9dee9;
     color: black;
     font-family: 'Montserrat', sans-serif;
+    transition: 400ms;
 }
-.hr{
+/* .hr {
     width: 90%;
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px solid #D9DEE9;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.250);
+    border: 1px solid #d9dee9;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.text-home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+    font-family: 'Monstserrat', sans-serif;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 10;
+    padding: 0 400px;
 }
